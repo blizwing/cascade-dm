@@ -2,7 +2,7 @@
 
 **Cascade Download Manager by Blueflame OPC** is a fast, multi-connection download manager for Windows, built for people and for scripts and AI agents. It splits a file into segments, resumes where it left off, checks what it downloaded, and can be driven from the command line.
 
-> **Download:** open [**Releases**](../../releases/latest) and grab `Cascade DM <version>.zip`.
+> **Download:** open [**Releases**](../../releases/latest) and grab `Cascade.DM.<version>.zip` (GitHub shows the spaces in the name as dots).
 
 ## Why Cascade DM
 
@@ -22,8 +22,8 @@
 
 ## Install
 
-1. Download `Cascade DM <version>.zip` from the latest release.
-2. Check it (optional): the release page lists its SHA-256. In PowerShell: `Get-FileHash "Cascade DM <version>.zip" -Algorithm SHA256`.
+1. Download `Cascade.DM.<version>.zip` from the latest release.
+2. Check it (optional): the release page lists its SHA-256. In PowerShell: `Get-FileHash "Cascade.DM.<version>.zip" -Algorithm SHA256`.
 3. Unzip the `Cascade DM` folder anywhere you like (for example `C:\Apps`).
 4. Run `cascade-dm.exe`.
 
@@ -31,7 +31,7 @@ The first run may show **"Windows protected your PC"** because this early build 
 
 ## Update and roll back
 
-- **Update:** in the app, go to *Settings -> About -> Update from file...* and pick the newer zip. Your downloads, settings and saved credentials are kept. You can also run `Update Cascade DM.bat` from the install folder.
+- **Update:** in the app, go to *Settings -> About -> Update from file...* and pick the newer zip (the `Cascade.DM.<version>.zip` file you downloaded). Your downloads, settings and saved credentials are kept. You can also run `Update Cascade DM.bat` from the install folder.
 - **Roll back:** *Settings -> About* lists the backups made before each update. Pick one to go back.
 
 ## Command line
