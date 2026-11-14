@@ -36,6 +36,16 @@ The first run may show **"Windows protected your PC"** because Cascade DM is not
 - **Update:** in the app, go to *Settings -> About -> Update from file...* and pick the newer zip (the `Cascade.DM.<version>.zip` file you downloaded). Your downloads, settings and saved credentials are kept. You can also run `Update Cascade DM.bat` from the install folder.
 - **Roll back:** *Settings -> About* lists the backups made before each update. Pick one to go back.
 
+## Browser extension
+
+Cascade DM includes an extension for Chrome, Edge, Brave and Firefox (or Floorp) that sends downloads you start in your browser to Cascade DM, with the cookies and referrer the site expects. There is no separate download and no store: the extension files are built into the app. Cascade DM offers to set it up the first time you run it.
+
+1. In Cascade DM open *Settings -> Browser integration* and click **Link** next to your browser.
+2. Click **Prepare extension files**. Cascade DM writes the extension to a folder under `%LOCALAPPDATA%\CascadeDM\extension`.
+3. In Chrome, Edge or Brave open the extensions page (`chrome://extensions`, `edge://extensions`, `brave://extensions`), switch on the toggle that allows unpacked extensions, click **Load unpacked** and choose that folder. In Firefox or Floorp open `about:debugging#/runtime/this-firefox` and use **Load Temporary Add-on** (Firefox removes temporary add-ons when it closes; Settings explains how to keep it).
+
+The extension passes the address, cookies and referrer of a download you start to Cascade DM on the same PC and nowhere else.
+
 ## Command line
 
 ```powershell
