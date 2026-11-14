@@ -1,0 +1,85 @@
+CASCADE DOWNLOAD MANAGER - END USER LICENSE AGREEMENT (EULA)
+
+Copyright (c) Blueflame OPC All rights reserved.
+"Cascade Download Manager", "Cascade DM" and "CDM" are names used by Blueflame OPC ("Blueflame", "we", "us").
+
+Please read this agreement. By installing, copying or using Cascade Download Manager (the "Software", including the
+cascade-dm, cdm and cdm-host programs, the browser extension files and the documentation that come with it) you agree
+to these terms. If you do not agree, do not use the Software.
+
+1. LICENSE
+Blueflame grants you a free, personal, non-exclusive, non-transferable, revocable licence to install and use the Software on
+computers you own or control, for your own personal or internal business use. The Software is licensed, not sold.
+Blueflame keeps all rights not expressly granted.
+
+2. WHAT YOU MAY NOT DO
+You may not (a) sell, rent, lease, sublicense or charge for the Software; (b) modify it, or build products from it, except
+as the law allows despite this clause; (c) reverse engineer, decompile or disassemble it, except to the limited extent the
+law allows despite this clause; (d) remove copyright, edition or licence notices; (e) use it to break the law or to harm,
+attack or overload any person, server or network; (f) use it to circumvent a technical protection measure, access control
+or copy protection (for example DRM), or to download content you have no right to download. You may share the original,
+unmodified release package you received, as long as you keep it complete, including this EULA and the notices.
+
+3. YOU ARE RESPONSIBLE FOR WHAT YOU DOWNLOAD
+The Software is a general download tool. It does not check who owns a file or whether you may have it. You alone decide
+what to download and you are responsible for having the right to download, store and use it, and for following the law
+and the terms of each website or service you connect to. Blueflame does not provide, host, review, endorse or control any
+content that you download.
+
+4. PRIVACY
+Blueflame does not collect your data through the Software. It has no account, no advertising and no telemetry, and it does
+not send your files, history or settings to Blueflame. Everything it stores stays on your PC: the job history and settings
+in %LOCALAPPDATA%\CascadeDM, downloaded files in the folder you choose, and any proxy password in Windows Credential
+Manager. The Software connects only to the addresses you ask it to download from and to sites you open in its built-in
+browser. If you switch on encrypted DNS (DNS over HTTPS) it sends website name lookups to the resolver you chose, for
+example Cloudflare or Google, who have their own privacy terms. The browser extension passes the address, cookies and
+referrer of a download you start in your browser to the Software on the same PC, so the site accepts the download; it
+does not send them anywhere else. The websites you visit and download from can see your IP address and what you request,
+as with any browser or download tool.
+
+5. SECURITY CHECKS
+The Software tries to flag risky files (disguised programs, dangerous file types, risky archives, unsigned installers) and
+hands finished files to Windows security. This is a safety net and not a guarantee. It can miss threats or flag harmless
+files. Keep your own antivirus on, and open files only from sources you trust.
+
+6. THIRD-PARTY SOFTWARE
+The Software contains open-source components, each under its own licence. Their notices are in THIRD-PARTY-NOTICES.txt,
+which comes with the Software. Nothing in this EULA limits your rights under those licences. The Software uses the Microsoft
+Edge WebView2 Runtime that is already installed on your PC; it does not include or redistribute it, and that runtime is
+licensed to you by Microsoft. Other product and company names belong to their owners.
+
+7. UPDATES
+The Software does not update itself in the background. You choose to install a newer package (Settings -> About -> Update
+from file, or the included updater). Each update keeps a backup so you can roll back. New versions may change or remove
+features.
+
+8. NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY OR UNINTERRUPTED OR ERROR-FREE
+OPERATION. Downloads can fail, be incomplete or be corrupted, and files can be lost. Back up what matters.
+
+9. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT THE LAW ALLOWS, BLUEFLAME AND ITS OWNER, DIRECTORS, EMPLOYEES AND CONTRIBUTORS WILL NOT BE LIABLE FOR
+ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR LOST DATA, PROFITS OR BUSINESS, OR FOR ANY CLAIM
+ARISING FROM CONTENT YOU DOWNLOAD OR HOW YOU USE THE SOFTWARE. BECAUSE THE SOFTWARE IS FREE, OUR TOTAL LIABILITY FOR ALL CLAIMS
+RELATING TO IT IS LIMITED TO INR 1,000 (ONE THOUSAND RUPEES) OR THE AMOUNT YOU PAID FOR IT, WHICHEVER IS HIGHER. Nothing in
+this EULA excludes or limits liability that cannot be excluded or limited by law (for example for fraud or for death or
+personal injury caused by negligence). Some places do not allow some of these limits, so they apply only as far as the law of
+your place allows.
+
+10. YOUR INDEMNITY
+You agree to cover Blueflame against claims, losses and costs that arise from your unlawful use of the Software or from the
+content you download with it, to the extent the law allows.
+
+11. TERMINATION
+This licence lasts until ended. It ends automatically if you break these terms. You can end it at any time by deleting the
+Software. After it ends, stop using the Software and delete your copies. Sections 3, 8, 9, 10 and 12 continue after
+termination.
+
+12. GENERAL
+These terms are governed by the laws of India, and the courts of India have exclusive jurisdiction, except where the law
+where you live gives you mandatory rights to another venue. If a part of this EULA cannot be enforced, the rest stays in
+force. This EULA is the whole agreement about the Software and replaces earlier versions. We may publish a new EULA with a
+new version of the Software; it applies to that version. Not enforcing a term is not a waiver of it.
+
+Questions: open an issue at https://github.com/blizwing/cascade-dm/issues
